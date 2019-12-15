@@ -1,5 +1,8 @@
 # smaker-app
 
+## smaker DEMO GIF
+![](smaker.gif)
+
 ## Project setup
 ```
 yarn install

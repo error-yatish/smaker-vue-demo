@@ -1,0 +1,18 @@
+<div class="row">
+  <div class="col-6">
+    <p>Added</p>
+    <draggable class="list-group list-group-container" :list="addedIngredients" group="food">
+      <div class="list-group-item" v-for="(element, index) in addedIngredients" :key="element.id"> 
+        {{ element.name }}
+      </div>
+    </draggable>
+  </div>
+  <div class="col-6">
+    <p>Available</p>
+    <draggable class="list-group list-group-container" :list="ingredients" group="food">
+      <div class="list-group-item" v-for="(element, index) in ingredients" :key="element.id"> 
+        {{ element.name }} 
+      </div>
+    </draggable>
+  </div>
+</div>
